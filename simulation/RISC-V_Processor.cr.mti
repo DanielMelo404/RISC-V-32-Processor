@@ -1,0 +1,127 @@
+C:/Users/danie/Desktop/6.004/Lab6/hdl/processor_tb.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab6/hdl/processor_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module processor_tb
+
+Top level modules:
+	processor_tb
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sft32.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sft32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sft32
+
+Top level modules:
+	sft32
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module addSub
+
+Top level modules:
+	addSub
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory_tb.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MagicMemory_tb
+
+Top level modules:
+	MagicMemory_tb
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/carrySelecAdder.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/carrySelecAdder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module carrySelectAdder
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/rca.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/rca.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rca
+
+Top level modules:
+	rca
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fastAdd.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fastAdd.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fastAdd
+
+Top level modules:
+	fastAdd
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub_fastAdd.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub_fastAdd.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module addSub_fastAdd
+
+Top level modules:
+	addSub_fastAdd
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/ltu32.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/ltu32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ltu32
+
+Top level modules:
+	ltu32
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder_tb.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module InstructionDecoder_tb
+
+Top level modules:
+	InstructionDecoder_tb
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/alu.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/alu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab6/hdl/aluBr.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab6/hdl/aluBr.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module aluBr
+
+Top level modules:
+	aluBr
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fullAdder.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fullAdder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fullAdder
+
+Top level modules:
+	fullAdder
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionExecuter.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionExecuter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module InstructionExecuter
+
+Top level modules:
+	InstructionExecuter
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/lt32.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/lt32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lt32
+
+Top level modules:
+	lt32
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sll32.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sll32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sll32
+
+Top level modules:
+	sll32
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/cmp.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/cmp.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module cmp
+
+Top level modules:
+	cmp
+
+} {} {}} C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/barrelRShift.v {1 {vlog -work work C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/barrelRShift.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module barrelRShift
+
+Top level modules:
+	barrelRShift
+
+} {} {}}
