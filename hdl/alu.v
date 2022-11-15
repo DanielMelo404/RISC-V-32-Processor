@@ -1,0 +1,112 @@
+module alu(
+    input [31:0] a, b, 
+    input [3:0] func,
+    output reg [31:0] out
+    );
+
+    parameter   Add = 4'b0000,
+                Sub = 4'b0001 ,
+                And = 4'b0010,
+                Or = 4'b0011,
+                Xor = 4'b0100,
+                Slt = 4'b0101,
+                Sltu = 4'b0110,
+                Sll = 4'b0111,
+                Srl = 4'b1000,
+                Sra = 4'b1001;
+
+    parameter   LogicalRightShift = 2'b00,
+                ArithmeticRightShift = 2'b01,
+                LeftShift = 2'b10;   
+    
+    reg [31:0] outWire;
+    reg isSigned, isSub;
+    reg [1:0] shiftType;
+
+addSub_fastAdd #(32) adderSubtractor(.a(a), .b(b), .isSub(isSub), 
+    .out(addSubWire));
+    wire [31:0] addSubWire, sft23Wire; 
+    wire lt32Wire;
+
+    
+
+    lt32 lessThan(.a(a), .b(b), .isSigned(isSigned), .out(lt32Wire));
+
+    sft32 shifter(.in(a), .sftSz(b[4:0]), .shiftType(shiftType), 
+    .out(sft23Wire));
+   
+    always @ * begin 
+        case (func)
+            Add: begin
+                isSub = 0;
+                out = addSubWire;
+                isSigned = 0;
+                shiftType  = 0;
+                end
+            Sub : begin
+                isSub = 1;
+                out = addSubWire;
+                isSigned = 0;
+                shiftType  = 0;
+                end
+            And : begin
+                out = a & b;
+                isSub = 0;
+                isSigned = 0;
+                shiftType  = 0;
+                end
+            Or : begin
+                out = a | b;
+                isSub = 0;
+                isSigned = 0;
+                shiftType  = 0;
+                end
+            Xor : begin
+                out = a ^ b;
+                isSub = 0;
+                isSigned = 0;
+                shiftType  = 0;
+                end
+            Slt : begin
+                isSigned = 1;
+                out = { 31'b0 , lt32Wire};
+                isSub = 0;
+                shiftType  = 0;
+                end
+            Sltu : begin
+                isSigned = 0;
+                out = { 31'b0 , lt32Wire};
+                isSub = 0;
+                shiftType = 0;
+                end
+            Sll : begin
+                shiftType = LeftShift;
+                out = sft23Wire;
+                isSub = 0;
+                isSigned = 0;
+                end
+            Srl : begin
+                shiftType = LogicalRightShift;
+                out = sft23Wire;
+                isSub = 0;
+                isSigned = 0;
+                end
+            Sra : begin
+                shiftType = ArithmeticRightShift;
+                out = sft23Wire;
+                isSub = 0;
+                isSigned = 0;
+                
+                end
+            default: begin
+                shiftType= LogicalRightShift;
+                out = sft23Wire;
+                isSigned = 0;
+                isSub = 0;
+
+                end
+        endcase 
+
+    end
+
+endmodule

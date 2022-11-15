@@ -1,0 +1,29 @@
+module MagicMemory(
+    input clk,
+    input [31:0] addr,//for writes and reads becouse we never want to read and write simultaneously
+    input [31:0] write_data,//maybe
+    input weMem, //write enable memory
+    output [31:0] read_data
+);
+
+    parameter memFile = "memory.mif";
+
+    reg [31:0] memArray [10000:0];
+
+    wire [29:0] realAddr =  addr >> 2;// truncates addr 2 LSB places
+    //se divide en 4 para poder encontrar el dato en memoria
+
+//    initial begin 
+//        $display("Memoria leida");
+//        $readmemb(memFile, memArray);// comentado para poder hacer syntesis
+//    end
+
+    //READS
+    assign read_data = memArray[realAddr];
+
+    //WRITES
+    always @ (posedge clk)begin
+        if(weMem) memArray[realAddr] <= write_data;
+    end
+
+endmodule
