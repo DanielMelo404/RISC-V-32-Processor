@@ -1,0 +1,446 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\danie\Desktop\6.004\Lab5\simulation
+vaddSub
+Z1 IMFhzZS@4l6FmHkiT22N>W0
+Z2 VIXRPci@Bh2]?>M59L<aYM3
+Z3 dC:\Users\danie\Desktop\6.004\Lab6\simulation
+Z4 w1632417575
+Z5 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub.v
+Z6 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub.v
+L0 3
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nadd@sub
+Z10 !s100 fGe7?_9h8;0e:7VAn;ezj1
+Z11 !s108 1633028177.106000
+Z12 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub.v|
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vaddSub_fastAdd
+Z14 ICEOl?MQY`fdkAYMCz>1]C3
+Z15 VDHNR[jzjjQS>66;>K;K]03
+R3
+Z16 w1632434908
+Z17 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub_fastAdd.v
+Z18 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub_fastAdd.v
+L0 3
+R7
+r1
+31
+R8
+Z19 nadd@sub_fast@add
+Z20 !s100 `j;mBDkZzO@=o`]T=C0Kf1
+Z21 !s108 1633028177.484000
+Z22 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub_fastAdd.v|
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/addSub_fastAdd.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valu
+Z24 I6JFfGJA63H=L^K1<>[fTB2
+Z25 V<8zAkXHMh@L5;T1_CMz4z3
+R3
+Z26 w1632435033
+Z27 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/alu.v
+Z28 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/alu.v
+L0 1
+R7
+r1
+31
+R8
+Z29 !s100 hZE:JiSadIR@7jXa3YS:h3
+Z30 !s108 1633028178.104000
+Z31 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/alu.v|
+Z32 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valuBr
+Z33 IcVo6[EIPEO<cfl>D[F9M?3
+Z34 V>V1I7T`HdPCZ<k>XRl4M50
+R3
+Z35 w1633028714
+Z36 8C:/Users/danie/Desktop/6.004/Lab6/hdl/aluBr.v
+Z37 FC:/Users/danie/Desktop/6.004/Lab6/hdl/aluBr.v
+L0 1
+R7
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab6/hdl/aluBr.v|
+R8
+Z39 nalu@br
+Z40 !s100 ja5b6dSf0l:nm3Fg539Nh3
+Z41 !s108 1633029005.140000
+Z42 !s107 C:/Users/danie/Desktop/6.004/Lab6/hdl/aluBr.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vbarrelRShift
+Z43 I8`YXBg];a89A<<CLZmkE83
+Z44 VoR5YzPIcPDigD<G<Ykc<W3
+R3
+Z45 w1632284057
+Z46 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/barrelRShift.v
+Z47 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/barrelRShift.v
+L0 1
+R7
+r1
+31
+R8
+Z48 nbarrel@r@shift
+Z49 !s100 gngOM?H9ia?o4AX3g^LX[2
+Z50 !s108 1633028179.451000
+Z51 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/barrelRShift.v|
+Z52 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/barrelRShift.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcarrySelectAdder
+Z53 IdMKZCJXCmh0Gm[1mG1Lih0
+Z54 V]UQ?G^8V_ViYe[HWlE0JX0
+R3
+Z55 w1633028966
+Z56 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/carrySelecAdder.v
+Z57 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/carrySelecAdder.v
+L0 3
+R7
+r1
+31
+Z58 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/carrySelecAdder.v|
+R8
+Z59 ncarry@select@adder
+Z60 !s100 @]?`:5kLg<zRjn>FXii4i1
+Z61 !s108 1633028994.795000
+Z62 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/carrySelecAdder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcmp
+Z63 I4fnMIZ?4AmoKSjzFkClNP3
+Z64 VS_[BYnYJa?jIM9;7ji8jJ0
+R3
+Z65 w1632187134
+Z66 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/cmp.v
+Z67 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/cmp.v
+L0 1
+R7
+r1
+31
+R8
+Z68 !s100 mP2_5^`HcCC4HXe3Qo2E42
+Z69 !s108 1633028182.090000
+Z70 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/cmp.v|
+Z71 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/cmp.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfastAdd
+Z72 ILTiUgd87C4jM4:6oSb9aW3
+Z73 V5W3>1@bLizEejkVL3WMGG2
+R3
+Z74 w1633029139
+Z75 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fastAdd.v
+Z76 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fastAdd.v
+L0 4
+R7
+r1
+31
+Z77 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fastAdd.v|
+R8
+Z78 nfast@add
+Z79 !s100 HFC`>C7RmK[O3aA6[o6BK1
+Z80 !s108 1633029146.772000
+Z81 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fastAdd.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfullAdder
+Z82 Ioj>ML<`JGL66zdbIIYiU:3
+Z83 V:Fcl43CL5C[fJF9S:zkY63
+R3
+Z84 w1632282580
+Z85 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fullAdder.v
+Z86 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fullAdder.v
+L0 1
+R7
+r1
+31
+R8
+Z87 nfull@adder
+Z88 !s100 fOonJPhLE[Cd0KaYBUT3?2
+Z89 !s108 1633028284.957000
+Z90 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fullAdder.v|
+Z91 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/fullAdder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vInstructionDecoder
+!i10b 1
+!s100 DFjzG^73kUM9_GI9z^lCN3
+I6JM:ij7z^@_SoWGLFnch13
+Z92 V?=:=F2B5;K>C`mL6HGe7e0
+R3
+w1633055986
+Z93 8C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder.v
+Z94 FC:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1633056008.610000
+!s107 C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder.v|
+Z95 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder.v|
+!s101 -O0
+R8
+Z96 n@instruction@decoder
+vInstructionDecoder_tb
+Z97 !s100 H45DBVaVHcI>W^?ZN`zC41
+Z98 IPEkLjaXjm>RVm[e:gAIGd0
+Z99 Vb;k[_Vg?6Bcl1nHPIC^4i0
+R3
+Z100 w1633047519
+Z101 8C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder_tb.v
+Z102 FC:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder_tb.v
+L0 1
+R7
+r1
+31
+Z103 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder_tb.v|
+R8
+Z104 n@instruction@decoder_tb
+Z105 !s108 1633049231.548000
+Z106 !s107 C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionDecoder_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vInstructionExecuter
+Z107 !s100 eCMDJ<IQaoMRR3`>XBVB43
+Z108 I_KI5D:4b5Q[C[WRh91^ed3
+Z109 Vk`J@GMS>bG470_GDoY?HQ1
+R3
+Z110 w1633054047
+Z111 8C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionExecuter.v
+Z112 FC:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionExecuter.v
+L0 1
+R7
+r1
+31
+Z113 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionExecuter.v|
+R8
+Z114 n@instruction@executer
+Z115 !s108 1633054780.873000
+Z116 !s107 C:/Users/danie/Desktop/6.004/Lab6/hdl/InstructionExecuter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlt32
+Z117 I=VDBG=]gNTUI<B7:[8U9G3
+Z118 V_KaHX1Qz]:QXTnQzoKh:S2
+R3
+Z119 w1632364877
+Z120 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/lt32.v
+Z121 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/lt32.v
+L0 1
+R7
+r1
+31
+R8
+Z122 !s100 Y0XW3eb?5`RO=O6EY1?Jm0
+Z123 !s108 1633028183.889000
+Z124 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/lt32.v|
+Z125 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/lt32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vltu32
+Z126 Ic<@fNSbUVK8:ZkE8jWQmm3
+Z127 VR5>mM[;EV3oB>iBIcgo^j0
+R3
+Z128 w1632317218
+Z129 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/ltu32.v
+Z130 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/ltu32.v
+L0 1
+R7
+r1
+31
+R8
+Z131 !s100 JK[_9c2_^h]8`oT;7V3e_1
+Z132 !s108 1633028184.803000
+Z133 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/ltu32.v|
+Z134 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/ltu32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMagicMemory
+Z135 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z136 I3iY0[Izgk8i[9b@jA]9n]3
+Z137 VAS2TLWdLEdDPC1PQ[WZFo1
+Z138 !s105 MagicMemory_sv_unit
+S1
+R3
+Z139 w1633030657
+Z140 8C:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory.sv
+Z141 FC:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory.sv
+L0 1
+R7
+r1
+31
+Z142 !s90 -reportprogress|300|-work|work|-sv|C:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory.sv|
+Z143 o-work work -sv -O0
+Z144 n@magic@memory
+Z145 !s100 z>T=2NnAbdok=0k<_O;mB0
+Z146 !s108 1633031681.679000
+Z147 !s107 C:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vMagicMemory_tb
+Z148 I=NjMi0MleSC>1Ae6]kmOD1
+Z149 V;Y;G<z10Y_fGb5D9gATQ:1
+R3
+Z150 w1632876628
+Z151 8C:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory_tb.v
+Z152 FC:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory_tb.v
+L0 1
+R7
+r1
+31
+Z153 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory_tb.v|
+R8
+Z154 n@magic@memory_tb
+Z155 !s100 dZTBGlfXIZi?]5YghQTAj0
+Z156 !s108 1632971552.703000
+Z157 !s107 C:/Users/danie/Desktop/6.004/Lab6/hdl/MagicMemory_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vProcessor
+R135
+Z158 I^`TVUkl9=E9]IN:0CX;g>1
+Z159 Vb[lj?V[MQ0GWU^4Ck]]3m2
+Z160 !s105 Processor_sv_unit
+S1
+R3
+Z161 w1633041449
+Z162 8C:\Users\danie\Desktop\6.004\Lab6\hdl\Processor.sv
+Z163 FC:\Users\danie\Desktop\6.004\Lab6\hdl\Processor.sv
+L0 1
+R7
+r1
+31
+Z164 !s90 -reportprogress|300|-work|work|-sv|C:\Users\danie\Desktop\6.004\Lab6\hdl\Processor.sv|
+R143
+Z165 n@processor
+Z166 !s100 :0fRBfO9RQca:g[9chZP21
+Z167 !s108 1633041469.397000
+Z168 !s107 C:\Users\danie\Desktop\6.004\Lab6\hdl\Processor.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vprocessor_tb
+Z169 IQb1m<GT>65Sf8OO99GMV;3
+Z170 VA@=eDRFOlHj=73A@IeYY<2
+R3
+Z171 w1633049449
+Z172 8C:/Users/danie/Desktop/6.004/Lab6/hdl/processor_tb.v
+Z173 FC:/Users/danie/Desktop/6.004/Lab6/hdl/processor_tb.v
+L0 1
+R7
+r1
+31
+Z174 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab6/hdl/processor_tb.v|
+R8
+Z175 !s100 =fNSo_@=SjjG23MRJm>880
+Z176 !s108 1633053690.157000
+Z177 !s107 C:/Users/danie/Desktop/6.004/Lab6/hdl/processor_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrca
+Z178 I^eB7]`56z>Jf_R`8QADGD2
+Z179 VM0a3M2<CRcd=2COH<F<H33
+R3
+Z180 w1632317240
+Z181 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/rca.v
+Z182 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/rca.v
+L0 3
+R7
+r1
+31
+R8
+Z183 !s100 [_IXJ5;8eLa^@S>X;F3R<3
+Z184 !s108 1633028186.255000
+Z185 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/rca.v|
+Z186 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/rca.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegisterFile
+R135
+Z187 IXfG>Lad<lahK6c_4G8P683
+Z188 VjABe^a<j[Qfh>zzTnDImj1
+Z189 !s105 RegisterFile_sv_unit
+S1
+R3
+Z190 w1633036139
+Z191 8C:/Users/danie/Desktop/6.004/Lab6/hdl/RegisterFile.sv
+Z192 FC:/Users/danie/Desktop/6.004/Lab6/hdl/RegisterFile.sv
+L0 1
+R7
+r1
+31
+Z193 !s90 -reportprogress|300|-work|work|-sv|C:/Users/danie/Desktop/6.004/Lab6/hdl/RegisterFile.sv|
+R143
+Z194 n@register@file
+Z195 !s100 IJ7mTH`9X^NC42@?60zcT1
+Z196 !s108 1633036160.053000
+Z197 !s107 C:/Users/danie/Desktop/6.004/Lab6/hdl/RegisterFile.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vsft32
+Z198 ICAOlg]Qm`YQPozoAN7N<m0
+Z199 VPc=k2LBkBiz];3RPo3S[V2
+R3
+Z200 w1632364515
+Z201 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sft32.v
+Z202 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sft32.v
+L0 1
+R7
+r1
+31
+R8
+Z203 !s100 9jZfXB_AGJ[=mTb276XXA1
+Z204 !s108 1633028187.358000
+Z205 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sft32.v|
+Z206 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sft32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsll32
+Z207 IX0UQVOD6cZ7K>^f>o[Hhk1
+Z208 VCJH3>BnDZCf9liVNBEjU]1
+R3
+Z209 w1632153151
+Z210 8C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sll32.v
+Z211 FC:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sll32.v
+L0 1
+R7
+r1
+31
+R8
+Z212 !s100 SGZ0A@IT9F7m6l_bJaa>]2
+Z213 !s108 1633028188.109000
+Z214 !s107 C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sll32.v|
+Z215 !s90 -reportprogress|300|-work|work|C:/Users/danie/Desktop/6.004/Lab4_Msim/hdl/sll32.v|
+!i10b 1
+!s85 0
+!s101 -O0
